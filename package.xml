@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2neuro_recorder</name>
+  <version>1.0.2</version>
+  <description>ROSNEURO Recorder package to record Neural data</description>
+  <author email="luca.tonin@unipd.it">Luca Tonin</author>
+  <maintainer email="luca.tonin@unipd.it">Luca Tonin</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>ros2neuro_data</depend>
+  <depend>ros2neuro_msgs</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
