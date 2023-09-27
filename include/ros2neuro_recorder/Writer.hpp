@@ -9,7 +9,7 @@
 
 #include "ros2neuro_data/NeuroData.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 
 class Writer {

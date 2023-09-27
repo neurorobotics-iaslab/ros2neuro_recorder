@@ -3,7 +3,7 @@
 
 #include "ros2neuro_recorder/FactoryWriter.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 std::unique_ptr<Writer> FactoryWriter::createWriter(NeuroFrame* frame, unsigned int type) {
 

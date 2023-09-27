@@ -3,7 +3,7 @@
 
 #include "ros2neuro_recorder/DummyWriter.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 DummyWriter::DummyWriter(NeuroFrame* frame) : Writer(frame) {
     this->name_ = "dummywriter";

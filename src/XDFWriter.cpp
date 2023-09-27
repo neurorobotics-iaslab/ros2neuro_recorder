@@ -3,7 +3,7 @@
 
 #include "ros2neuro_recorder/XDFWriter.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 XDFWriter::XDFWriter(NeuroFrame* frame) : Writer(frame) {
     this->name_    = "xdfwriter";

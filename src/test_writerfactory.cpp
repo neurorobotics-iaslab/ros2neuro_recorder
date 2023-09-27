@@ -1,11 +1,11 @@
 #include "ros2neuro_recorder/FactoryWriter.hpp"
 #include <unistd.h>
 
-using namespace rosneuro;
+using namespace ros2neuro;
 
 int main(int argc, char** argv) {
 
-    rosneuro::NeuroFrame    frame;
+    ros2neuro::NeuroFrame    frame;
     FactoryWriter factory;
 
     std::unique_ptr<Writer> xdfwrt   = factory.createWriter(&frame, WriterType::XDFWRT);

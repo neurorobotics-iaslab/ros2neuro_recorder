@@ -7,7 +7,7 @@
 #include "ros2neuro_recorder/XDFWriter.hpp"
 #include "ros2neuro_recorder/DummyWriter.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 enum WriterType {XDFWRT, DUMMYWRT};
 

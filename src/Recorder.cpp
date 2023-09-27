@@ -3,7 +3,7 @@
 
 #include "ros2neuro_recorder/Recorder.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 Recorder::Recorder(void) : Node("recorder") {
     this->topic_data_    = "/neurodata";
@@ -13,9 +13,9 @@ Recorder::Recorder(void) : Node("recorder") {
     this->firstdata_     = false;
     this->state_         = Recorder::IS_IDLE;
 
-    // Retrieve filepath (default: $ROSNEURO_DATA | then: $HOME)
+    // Retrieve filepath (default: $ROS2NEURO_DATA | then: $HOME)
     const char* default_path;
-    if( (default_path = std::getenv("ROSNEURO_DATA")) == nullptr) {
+    if( (default_path = std::getenv("ROS2NEURO_DATA")) == nullptr) {
         default_path = std::getenv("HOME");
     }
 

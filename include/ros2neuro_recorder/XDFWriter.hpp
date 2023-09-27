@@ -5,7 +5,7 @@
 #include "ros2neuro_recorder/Writer.hpp"
 #include "ros2neuro_data/NeuroData.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 class XDFWriter : public Writer {
 

@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
     // ros initialization
     rclcpp::init(argc, argv);
 
-    auto recorder = std::make_shared<rosneuro::Recorder>();
+    auto recorder = std::make_shared<ros2neuro::Recorder>();
 
     if(recorder->run() == false)
         RCLCPP_ERROR(recorder->get_logger(), "Recorder interrupted while running");

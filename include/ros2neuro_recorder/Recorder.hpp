@@ -12,7 +12,7 @@
 #include "ros2neuro_msgs/msg/neuro_data_info.hpp"
 #include "ros2neuro_msgs/srv/get_acquisition_info.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 class Recorder : public rclcpp::Node {
     public:

@@ -3,7 +3,7 @@
 
 #include "ros2neuro_recorder/Writer.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 Writer::Writer(NeuroFrame* frame) {
     this->name_   = "undefined";
